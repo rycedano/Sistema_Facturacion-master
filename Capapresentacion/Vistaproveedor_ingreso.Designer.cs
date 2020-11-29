@@ -111,12 +111,13 @@
             // 
             // btnbuscar
             // 
+            this.btnbuscar.BackColor = System.Drawing.Color.Lime;
             this.btnbuscar.Location = new System.Drawing.Point(195, 15);
             this.btnbuscar.Name = "btnbuscar";
             this.btnbuscar.Size = new System.Drawing.Size(75, 23);
             this.btnbuscar.TabIndex = 2;
             this.btnbuscar.Text = "&Buscar";
-            this.btnbuscar.UseVisualStyleBackColor = true;
+            this.btnbuscar.UseVisualStyleBackColor = false;
             this.btnbuscar.Click += new System.EventHandler(this.btnbuscar_Click);
             // 
             // txtbuscar
